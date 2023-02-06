@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;500&family=Quicksand:wght@400;700&family=Raleway:wght@100;200;400;700&family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #f8f4ea;
+}
+
+nav a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.navbar .nav-item a {
+  color: #393e46;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: all 0.6s ease 0s;
+}
+
+.navbar .nav-item a:hover {
+  color: #9ffc34;
+}
+
+.search_project {
+  color: #393e46;
+  padding-top: 80px;
+  min-height: 400px;
+}
+
+.search_project h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
+.search_project h1 span {
+  color: #9ffc34;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+.search_project form input {
+  width: 320px;
+  border-radius: 20px;
+  border-color: #9ffc34;
+}
+
+.search_project .button {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #393e46;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 120px;
+  height: 40px;
+  padding: 8px 35px;
+  transition: all 0.3s ease 0s;
+}
+
+.search_project .button:hover {
+  background-color: #9ffc34;
+  box-shadow: 0px 15px 20px rgba(158, 235, 71, 0.712);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+#galvalum {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #f4f4f4;
+}
+
+.galvalum {
+  justify-content: center;
+}
+
+.galvalum .gal_1 {
+  border-radius: 0px 15px 15px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(111, 255, 12, 1) 0%,
+    rgba(200, 250, 27, 1) 100%
+  );
+  padding: 20px;
+  display: flex;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.galvalum .gal_2 {
+  display: flex;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: 550px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(200, 250, 27, 1) 0%,
+    rgba(111, 255, 12, 1) 100%
+  );
+  width: 800px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.galvalum .gal_2 img {
+  padding-left: 20px;
+}
+
+.galvalum .gal_3 {
+  border-radius: 0px 15px 15px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(111, 255, 12, 1) 0%,
+    rgba(200, 250, 27, 1) 100%
+  );
+  display: flex;
+  padding: 20px;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.proyek {
+  height: 100vh;
+}
+
+.proyek h1 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.proyek p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-body {
+  height: 180px;
+  background-color: #f4f4f4;
+}
+
+.card-body p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #393e46;
+}
+
+.card-body a {
+  display: block;
+  width: 200px;
+  padding: 12px 12px 12px 20px;
+  background-color: #f4f4f4;
+  color: #393e46;
+  font-size: 14px;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.card-body .ls:hover {
+  background-color: #9ffc34;
+  box-shadow: 0px 15px 20px rgba(158, 235, 71, 0.712);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.mini-logo {
+  padding-top: 218px;
+  padding-left: 30px;
+  position: absolute;
+}
+
+.keunggulan {
+  height: 100vh;
+}
+
+.k_g {
+  margin-left: 15%;
+  padding: 20px 30px;
+  background-color: #f8f4ea;
+  width: 900px;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 20px;
+  transition: all 0.3s ease 0s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.k_g p {
+  padding-top: 8px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.keunggulan .k_g:hover {
+  background-color: #9ffc34;
+  box-shadow: 0px 15px 20px rgba(158, 235, 71, 0.712);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.services {
+  margin-top: 25px;
+  padding-top: 34px;
+  height: 250px;
+}
+
+.services .number {
+  color: #f4f4f4;
+  background-color: #9ffc34;
+  width: 35px;
+  height: 70px;
+}
+
+.services .card {
+  width: 430px;
+  height: 140px;
+}
+
+.services .card .card-body .card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.services .card .card-body {
+  background-color: #f8f4ea;
+  transition: all 0.3s ease 0s;
+}
+
+.services .card .card-body:hover {
+  background-color: #9ffc34;
+  box-shadow: 0px 15px 20px rgba(158, 235, 71, 0.712);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.services .card .card-body .text-card p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
